@@ -59,6 +59,21 @@ alert (m)
 
 ///////////////////////////////////////שאלה 3
 
+var sum = 0 
+var a = parseInt (prompt ("choose a number") )
+
+ while (a>=0)
+   {
+
+     sum = (sum+a) 
+    a = parseInt (prompt ("choose a number") )
+     
+   }
+     
+
+alert (sum)
+
+
 
 
 
