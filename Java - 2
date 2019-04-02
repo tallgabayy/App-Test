@@ -1,0 +1,26 @@
+console.clear
+
+
+
+var a = parseInt(prompt("First Number"))
+var b = parseInt(prompt("Second Number"))
+var d = (parseInt (a) / parseInt (b))
+var m = (a % b)
+
+
+if (b == 0)
+  [
+    alert ("Can not divide by zero !")
+    
+  ]
+
+else 
+  [
+    
+    alert (d)
+    
+  ]
+
+alert (m)
+
+
