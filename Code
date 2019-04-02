@@ -1,0 +1,57 @@
+///////////////////שאלה 1
+
+
+
+         <html>
+	        <head>
+	                <title>I Love HTML</title>
+	                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	        </head>
+	        <body>
+	                <hr>
+	                    <p>a = <input type="number" id="ainput"/></p>
+	                    <p>b = <input type="number" id="binput"/></p>
+                        <button onclick="add()">Add</button> <br>
+                        <button onclick="ded()">Deduct</button> <br>
+                        <button onclick="mul()">Multiply</button> <br>
+                        <button onclick="div()">Divide</button> <br>
+
+
+
+	                </body>
+	        <script>
+	            function add()
+	            {
+	                var a = $('#ainput').val() 
+	                var b = $('#binput').val()
+	                alert ( parseInt(a) + parseInt(b) )
+	            }
+
+                function ded()
+	            {
+	                var a = $('#ainput').val() 
+	                var b = $('#binput').val()
+	                alert ( parseInt(a) - parseInt(b) )
+	            }
+
+
+                function mul()
+	            {
+	                var a = $('#ainput').val() 
+	                var b = $('#binput').val()
+	                alert ( parseInt(a) * parseInt(b) )
+	            }
+
+
+
+                function div()
+	            {
+	                var a = $('#ainput').val() 
+	                var b = $('#binput').val()
+	                alert ( parseInt(a) / parseInt(b) )
+	            }
+
+
+
+	        </script>
+	</html>
