@@ -86,15 +86,18 @@ console.clear()
 
 
 var myArray = [] 
-var x = parseInt (prompt ("choose a number"))
+
+
+
+do
+{
+
+ x = parseInt (prompt ("choose a number"))  
+   myArray.push(x) 
+}
 
 while (myArray.length != 10)
-
-{
-myArray.push(x)  
- x = parseInt (prompt ("choose a number"))
-  
-}
+  {}
 
 var sum = 0
 for(var i = 0; i < myArray.length; i = i + 1)
@@ -102,5 +105,5 @@ for(var i = 0; i < myArray.length; i = i + 1)
     sum = sum + myArray[i]; 
   }
 
-
-
+console.log(`Sum = ${sum}`)
+console.log(`Average = ${sum / myArray.length}`)
