@@ -1,0 +1,47 @@
+///////////////////////////שאלה ב
+
+
+<html>
+        <head>
+                <title>HTML - שאלה ב'</title>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        </head>
+        <body>
+                <hr>
+                <form onsubmit="printDetails()" id="myForm">
+                    <p> Name: <input type="text" id="name" required/></p>
+                    <p>Age: <input type="number" id="age" required/></p>
+                    <p>BirthDate:  <input type="date" id="bdinput" required/></p>
+                    
+                   
+                    <button type="submit">Print</button> <br>
+                </form>
+
+               
+
+                </body>
+
+        <script>
+           
+            function printDetails()
+            {
+                var person = {
+                    Name : $('#name').val(),
+                    Age : $('#age').val(),
+                    BirthDate : $('#bdinput').val(),
+                
+                }
+                
+                alertPerson( person )
+            }
+
+            function alertPerson(person)
+            {
+                alert (`Name : ${person.Name}\nAge : ${person.Age}\nBirthDate : ${person.BirthDate}
+
+                `);
+            }
+                                                      
+        </script>
+</html>
+
