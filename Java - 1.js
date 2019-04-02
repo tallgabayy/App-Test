@@ -81,30 +81,26 @@ alert (sum)
 ///////////////////////////////////////שאלה 4
 
 
+
 console.clear()
-var arr = [ 1, 2, 3, 4, 5, ,6 ,7 ,8 ,9 ,10 ] 
+
 
 var myArray = [] 
+var x = parseInt (prompt ("choose a number"))
 
-var x = parseInt(prompt("please enter number"))
-while (x !=)
-  {
-    myArray.push(x) 
-    x = parseInt(prompt("please enter number "))
-  }
+while (myArray.length != 10)
+
+{
+myArray.push(x)  
+ x = parseInt (prompt ("choose a number"))
+  
+}
 
 var sum = 0
 for(var i = 0; i < myArray.length; i = i + 1)
   {
     sum = sum + myArray[i]; 
   }
-
-alert(`Sum = ${sum}`)
-alert(`Average = ${sum / myArray.length}`)
-
-
-
-
 
 
 
