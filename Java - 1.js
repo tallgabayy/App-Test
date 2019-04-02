@@ -42,17 +42,18 @@ var m = (a % b)
 
 
 if (b == 0)
-  [
+{
     alert ("Can not divide by zero !")
     
-  ]
-
+}
 else 
-  [
-    
+{
+  
+
+ 
     alert (d)
     
-  ]
+  }
 
 alert (m)
 
