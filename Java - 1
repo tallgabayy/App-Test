@@ -1,0 +1,24 @@
+console.clear
+
+var a = parseInt(prompt("First Number"))
+var b = parseInt(prompt("Second Number"))
+
+if (a>b)  
+  
+ [
+ alert ("First number is bigger !") 
+   
+]
+
+else if (a<b)  
+  
+ [
+ alert ("Second number is bigger !") 
+   
+]
+
+else 
+  {
+    
+    alert ("Equal")
+  }
